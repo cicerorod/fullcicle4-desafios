@@ -1,0 +1,35 @@
+
+https://hub.docker.com/r/cicerorod/fullcicle04desafio03sqlitenest
+
+
+https://www.youtube.com/watch?v=g4HKttouVxA
+https://www.youtube.com/watch?v=yb2udL9GG2U
+
+
+https://github.com/codeedu/maratona-fullcycle-4
+https://github.com/codeedu/maratona4-esquenta
+https://github.com/codeedu/maratona4-esquenta
+https://github.com/codeedu/wsl2-docker-quickstart
+https://gist.github.com/wesleywillians/681ebbb1278e2f568065bcb28073e600
+
+keycloak -> Autenticação e Autorização
+https://www.keycloak.org/getting-started/getting-started-docker
+https://www.keycloak.org/app/#url=http://localhost:8080/auth&realm=myrealm&client=myclient
+
+
+
+docker-compose up   --force-recreate
+
+
+ depends_on: 
+        - db
+
+
+{
+	"firstName": "Kaima",
+	"lastName": "Abbess",
+	"email": "kaima@email.com",
+	"phone": "0690905555",
+	"city": "paris",
+	"country": "france"
+}
