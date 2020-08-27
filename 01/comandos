@@ -1,7 +1,7 @@
 ## Compilar um dockefile e gerar uma imagem
 docker build -t fullcicle04desafio01helloworld .
 ## executar um container da imagem criada
-docker run -p 8082:80 fullcicle04desafio01helloworld
+docker run -p 3000:3000 fullcicle04desafio01helloworld
 ## criar tag para imagem antes de enviar para o dockerhub
 docker tag 049ce25e8fde cicerorod/fullcicle04desafio01helloworld:V1
 ## publicar a imagem

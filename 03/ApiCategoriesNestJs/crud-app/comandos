@@ -1,0 +1,11 @@
+## Compilar um dockefile e gerar uma imagem
+docker build -t fullcicle04desafio03sqlitenest .
+## executar um container da imagem criada
+docker run -d -p 3000:3000 --name: nestsqlite fullcicle04desafio03sqlitenest
+## criar tag para imagem antes de enviar para o dockerhub
+docker tag fullcicle04desafio03sqlitenest cicerorod/fullcicle04desafio03sqlitenest:V1
+## publicar a imagem
+docker push cicerorod/fullcicle04desafio03sqlitenest
+
+## Site para criação de API com Nest e Sqlite
+https://www.techiediaries.com/nestjs-tutorial-rest-api-crud/
