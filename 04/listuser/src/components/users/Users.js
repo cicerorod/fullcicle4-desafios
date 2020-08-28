@@ -29,6 +29,7 @@ export default function Users({ users }) {
                 marginTop: "05px",
                 padding: "05px",
                 margin: "05px",
+                minWidth: "40vw",
               }}
             >
               <User user={user} />

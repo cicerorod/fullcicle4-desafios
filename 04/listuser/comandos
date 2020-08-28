@@ -1,0 +1,11 @@
+## Compilar um dockefile e gerar uma imagem
+docker build -t fullcicle04desafio04listuser .
+## executar um container da imagem criada
+docker run -d -p 3000:3000 --name: listuser fullcicle04desafio04listuser
+## criar tag para imagem antes de enviar para o dockerhub
+docker tag fullcicle04desafio04listuser cicerorod/fullcicle04desafio04listuser:V1
+## publicar a imagem
+docker push cicerorod/fullcicle04desafio04listuser
+
+## Site para criação de API com Nest e Sqlite
+https://www.techiediaries.com/nestjs-tutorial-rest-api-crud/
