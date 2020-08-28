@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import User from "./User";
-import css from "./user.module.css";
 
 export default function Users({ users }) {
   const [secondsVisible, setsecondsVisible] = useState(0);
@@ -21,7 +20,6 @@ export default function Users({ users }) {
         {users.map((user) => {
           const { id } = user;
           return (
-            // <li key={id}>
             <div
               key={id}
               style={{
@@ -35,7 +33,6 @@ export default function Users({ users }) {
             >
               <User user={user} />
             </div>
-            // </li>
           );
         })}
       </ul>
