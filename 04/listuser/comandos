@@ -1,3 +1,5 @@
+/// Para este projeto é necessário executar o yarn build antes de criar a imagem
+
 ## Compilar um dockefile e gerar uma imagem
 docker build -t fullcicle04desafio04listuser .
 ## executar um container da imagem criada
